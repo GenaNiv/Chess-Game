@@ -4,14 +4,17 @@
  *  Created on: Jan 8, 2015
  *      Author: gena
  */
+
+#include<math.h>
+#include "isValidInput.h"
+
 //-----Knigth's move validation------------
 #define N 8
 #define W 0
 #define B 1
-#include<math.h>
-#include "isValidInput.h"
 
 extern int  side;
+
 //---Function implementation
 int Knigth(char AttakedFigure,int x1,int y1,int x2,int y2){
 	int check;
